@@ -1,0 +1,34 @@
+# Slide 1: Title
+Agentic RAG Chatbot for Multi-Format Document QA using MCP
+
+# Slide 2: Agent Flow Diagram
+- UI → CoordinatorAgent → IngestionAgent → RetrievalAgent → LLMResponseAgent → UI
+- All communication via MCP (JSON messages)
+
+# Slide 3: System Architecture
+- Streamlit UI for upload & chat
+- Agents (Coordinator, Ingestion, Retrieval, LLM Response)
+- Vector Store (FAISS)
+- Embeddings (sentence-transformers/OpenAI)
+- Document Parsers (PDF, PPTX, CSV, DOCX, TXT/MD)
+
+# Slide 4: Tech Stack
+- Python, Streamlit
+- PyMuPDF, python-docx, python-pptx, pandas, markdown
+- sentence-transformers, faiss, openai
+
+# Slide 5: UI Screenshots
+- [Placeholder for upload screen]
+- [Placeholder for chat screen]
+
+# Slide 6: Challenges
+- Multi-format parsing
+- Chunking for context
+- Agent coordination
+- Efficient retrieval
+
+# Slide 7: Future Scope
+- Add more file types
+- Support for larger docs
+- Multi-agent extensions
+- Real-time collaboration 
