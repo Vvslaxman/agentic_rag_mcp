@@ -15,6 +15,10 @@ This project demonstrates an end-to-end AI assistant that:
 
 ---
 
+## Architecure
+
+![System Architecture](architecture_diag.png)
+
 ## ✅ Features
 
 - 📄 Upload multiple document formats
