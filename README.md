@@ -93,6 +93,7 @@ Once running, you can:
   "trace_id": "abc-123",
   "payload": { "query": "What are the KPIs?" }
 }
+```
 
 ## 🧩 Tech Stack
 
